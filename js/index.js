@@ -161,8 +161,20 @@ $(function(){
 //京东抢购倒计时
 $(function(){
 	function day(){
+		//创建倒计时时间
+		var djs=[0,4,8,12,16,20,24]
 		var day=new Date();    //创建一个当前时间
-		var newDay=new Date('2016/12/12')   //创建一个将来时间
+		var year=day.getFullYear(); //年
+		var mon=day.getMonth(); //月
+		var d1=day.getDate();    //日
+		var h1=day.getHours();   //时
+		//判断倒计时时间
+		for(i=0;i<djs.length;i++){
+			if(h1>=djs[i]&&h1<djs[i+1]){
+				h2=djs[i+1]
+			}
+		}
+		var newDay=new Date(year,mon,d1,h2,0,0)   //创建一个将来时间
 		var d=(newDay-day)/1000			//相差的时间单位为秒
 		h=parseInt(d/60/60)      //小时
 		m=parseInt((d-h*60*60)/60)  //分钟
