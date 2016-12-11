@@ -298,6 +298,7 @@ $(function(){
 	$('.form-item1 span').click(function(){
 		//清除样式
 		$('.form-item1 span').removeClass('font1')
+		$(this).siblings().css({'color':'#666','font-weight':'400'})
 		//添加样式
 		$(this).addClass('font1')
 		//得到当前的下标
