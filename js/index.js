@@ -466,7 +466,7 @@ $(function(){
 			//价格
 			var jiaG=$('.continue li').eq(i).find('p:last').html()
 			//添加
-			$('.continue ul').append('<li><a href="###"><img src=img/'+tuP+'.jpg width="220px" height="220px" alt='+jieS+' alt='+jieS+'><p>'+jieS+'</p><p>'+jiaG+'</p></a></li>')
+			$('.continue ul').append('<li><a href="###"><img src=img/'+tuP+'.jpg width="220px" height="220px" title='+jieS+' alt='+jieS+'><p>'+jieS+'</p><p>'+jiaG+'</p></a></li>')
 			$('.continue li').fadeIn()
 			}
 			
