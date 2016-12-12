@@ -435,7 +435,7 @@ $(function(){
 	$(window).scroll(function(){
 		//变宽的颜色
 		$('.fixedL a').css('border-color','#ccc')
-		var scrTop=$('body').scrollTop()  //向上滚动的距离
+		var scrTop=$('body,html').scrollTop()  //向上滚动的距离
 		//判断当滚动的距离大于一屏的高度时显示搜索框
 		if(scrTop>=1600){
 			$('.fixedL').fadeIn(300)  //大于等于时显示
