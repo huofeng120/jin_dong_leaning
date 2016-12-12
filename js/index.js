@@ -374,25 +374,26 @@ $(function(){
 		})
 		//扫描登录 图片样式函数
 			function imgChange1(){
-				//第一张的位置
-				$('.sweepImg>div').css('left','70px')
 				//隐藏第二张
 				$('.sweepImg>img').hide()
+				//第一张的位置
+				$('.sweepImg>div').stop().animate({'left':'70px'},500,function(){})
 			}
 			function imgChange2(){
-				$('.sweepImg>img').show(400);
+				$('.sweepImg>img').show();
 			}
 		//悬浮事件改变图片
 		$('.sweepImg').hover(function(){
-			//初始状态
-			$('.sweepImg>div').css('left','0')
+			////第一张的位置 初始状态
+			$('.sweepImg>div').stop().animate({'left':'0'},500,function(){
 				imgChange2()
-				return false;
-		},function(){
-				//第一张的位置
-				$('.sweepImg>div').css('left','70px')
-				$('.sweepImg>img').hide()
 			})
+		},function(){
+			//先隐藏
+			$('.sweepImg>img').hide()
+			//第一张的位置
+			$('.sweepImg>div').stop().animate({'left':'70px'},500,function(){})
+		})
 })
 
 //固定左侧楼梯
