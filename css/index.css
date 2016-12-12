@@ -748,7 +748,9 @@ body{
 	height:25px;
 	border:none;
 }
-
+#banner  .myJdItem2 li a:hover{
+	color:#c81660 !important;
+}
 #banner .bannerRight .Down:hover .myJd{
 	display:block;
 }
