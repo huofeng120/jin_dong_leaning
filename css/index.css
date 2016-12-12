@@ -516,7 +516,6 @@ body{
 	top:0;
 	padding:8px;
 	border:1px solid #f4f4f4;
-	transition:all .5s;
 }
 
 .sweep p:nth-of-type(1){
