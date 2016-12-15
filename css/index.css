@@ -881,7 +881,7 @@ body{
 #header .fix_seach{
 	position: fixed;
 	z-index: 100;
-	width:100%
+	width:100%;
     	top: 0;
 	border-bottom:2px red solid;
 	background:#fff;
