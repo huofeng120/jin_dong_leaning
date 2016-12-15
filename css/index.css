@@ -881,11 +881,17 @@ body{
 #header .fix_seach{
 	position: fixed;
 	z-index: 100;
-    top: 0;
+	width:100%
+    	top: 0;
 	border-bottom:2px red solid;
 	background:#fff;
 	padding:5px 162px;
 	display:none;
+}
+#header .fix_seach .fixS{
+	position:relative;
+	width:1190px;
+	margin:0 auto;
 }
 #header .fix_seach .logo{
 	top:5px;
