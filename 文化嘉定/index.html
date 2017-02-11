@@ -1,0 +1,767 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!-- <meta name='viewport' content='width=device,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no'> -->
+		<title>文化嘉定</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		
+	</head>
+	<body>
+		<!--页面的标头部分start-->
+		<header>
+			<!-- 登录弹框阻止其他操作start -->
+			<div id='max'></div>
+			<!-- 登录弹框阻止其他操作end -->
+			<!--顶部start-->
+			<div class="top">
+				<!--版心中start-->
+				<div class="index-w">
+					<!--左部分start-->
+					<div class="top-left">
+						<ul>
+							<li>Hi,游客</li>
+							<li>
+								<a href="#">我的空间</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href="#">退出</a>
+							</li>
+							<li id='dengLu'>
+								<a href="#" class="a-item">登录</a>
+							</li>
+							<li>
+								<a href="#" class="a-item">注册</a>
+							</li>
+						</ul>
+					</div>
+					<!--左部分start-->
+					<!--右部分start-->
+					<div class="top-right">
+						<form action="index.html" method="get" class="clearfix">
+							<input type="text" placeholder="查找你感兴趣的内容" id='search' />
+							<button type="submit"><span><img src="img/fangda1.png"/></span></button>
+						</form>
+						<a href="#"><img src="img/phone_03.jpg" /><span>手机端</span></a>
+					</div>
+					<!--右部分end-->
+				</div>
+				<!--版心中end-->
+			</div>
+			<!--顶部start-->
+			<!--菜单部分start-->
+			<nav>
+				<!--版心中start-->
+				<div class="index-w">
+					<div class="nav-left">
+						<a href="index.html"><img src="img/logo.png" width="187px" height="64px"/></a>
+					</div>
+					<div class="nav-right">
+						<ul>
+							<li class="li-item"><a href="#">网上书房</a></li>
+							<li><a href="#">数字展馆</a></li>
+							<li><a href="#">文化预告</a></li>
+							<li><a href="#">文化热点</a></li>
+							<li><a href="#">我要分享</a></li>
+							<li><a href="#">我要预约</a></li>
+							<li><a href="#">我要推荐</a></li>
+						</ul>
+					</div>
+				</div>
+				<!--版心中end-->
+			</nav>
+			<!--菜单部分start-->
+		</header>
+		<!--页面的标头部分end-->
+		<!-- 轮播start -->
+		<div class="content">
+			<!-- content第一部分start -->
+			<div class="content-item1" id='content-item1'>
+				<!-- 轮播图 start -->
+				<ul class='clearfix' id='con1-ul' style='left:0'>
+					<li><a href="#"><img src="img/banner.jpg" width='1280px' height='500px'/></a></li>
+					<li><a href="#"><img src="img/banner.jpg" width='1280px' height='500px'/></a></li>
+					<li><a href="#"><img src="img/banner.jpg" width='1280px' height='500px'/></a></li>
+				</ul>
+				<!-- 轮播图 end -->
+				<!-- 轮播图选项 start -->
+				<ul class='clearfix xuanTu'>
+					<li class='conLi-bg' onclick='u(0)'></li>
+					<li onclick='u(1)'></li>
+					<li onclick='u(2)'></li>
+				</ul>
+				<!-- 轮播图选项 end -->
+				<!-- 轮播图两侧 start -->
+				<div class='con-fl con'></div>
+				<div class='con-fr con'></div>
+				<!-- 轮播图两侧 end -->
+			</div>
+			<!-- content第一部分end -->
+			<!-- content第二部分 start -->
+			<div class='content-item2'>
+				<div id='conItems'>
+					<!-- content第二部分左边start -->
+					<div class='conItem2-left'>
+						<img src='img/img1.jpg' id='conItem2-img'>
+						<ul class='clearfix conItem2-ul'>
+							<li></li>
+							<li><a href='###'></a></li>
+							<li></li>
+							<li><a href='###'></a></li>
+							<li><a href='###'></a></li>
+							<li></li>
+							<li><a href='###'></a></li>
+							<li></li>
+							<li></li>
+							<li><a href='###'></a></li>
+							<li></li>
+							<li><a href='###'></a></li>
+						</ul>
+					</div>
+					<!-- content第二部分左边 end -->
+		
+					<!-- content第二部分右边start -->
+					<div class='conItem2-right'>
+						<div class='cr1'>
+							<p><img src='img/shuzi.png'></p>
+							<div class='cr1-img'>
+								<div class='imgBig'>
+									<img src='img/b4_10.jpg' width='480px' height='294px' >
+								</div>
+							</div>
+							<ul class='cr1-ul'>
+								<li class='crColor' onclick='chImg(0)'>
+									<span class='cr1-ul-sp' >
+										嘉定竹刻博物馆
+										<div></div>
+									</span>
+								</li>
+								<li onclick='chImg(1)' >
+									<span class='cr1-ul-sp'>
+										嘉定竹刻博物馆
+										<div></div>
+									</span>
+								</li>
+								<li onclick='chImg(2)' >
+									<span class='cr1-ul-sp' >
+										嘉定竹刻博物馆
+										<div></div>
+									</span>
+								</li>
+								<li onclick='chImg(3)'>
+									<span class='cr1-ul-sp' >
+										嘉定竹刻博物馆
+										<div></div>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- content第二部分右边 end -->
+				</div>
+			</div>
+			<!-- content第二部分 end -->
+		</div>
+		<!-- 轮播end -->
+		<!-- content2 start -->
+		<div class='content2'>
+			<div class='content2-items'>
+				<!-- 文化预告start -->
+				<div class='yGao'>
+					<div class='itemsL'>
+						<p><img src='img/tt.png'></p>
+						<div class='itemsL-1'>
+							<div class='itemsL-1L'>
+								<ul>
+									<li class='opa'>
+										<img src='img/l1.jpg' width='133px' height='124px' class='img1'>
+										<img src='img/l1.jpg' width='133px' height='124px' class='img2' style='display:block'>
+									</li>
+									<li class='opa'>
+										<img src='img/b2.jpg' width='133px' height='124px' class='img1'>
+										<img src='img/l2.jpg' width='133px' height='124px' class='img2'>
+									</li>
+									<li class='opa'>
+										<img src='img/b3.jpg' width='133px' height='124px' class='img1'>
+										<img src='img/l3.jpg' width='133px' height='124px' class='img2'>
+									</li>
+									<li style='border-bottom:none'class='opa'>
+										<img src='img/b4.jpg' width='133px' height='124px' class='img1'>
+										<img src='img/l4.jpg' width='133px' height='124px' class='img2'>
+									</li>
+								</ul>
+							</div>
+							<div class='itemsL-1R'>
+								<div class='lR1'>
+									<div>
+										<div id='yanChu'>
+											<p>111演出</p>
+											<p>222演出</p>
+											<p>333演出</p>
+											<p>444演出</p>
+										</div>
+										<a href='###'>MORE</a>
+									</div>
+									<span class='lJiao ' style='opacity:0.5'></span>
+									<span class='rJiao ' style='opacity:0.7'></span>
+								</div>
+								<div class='lR2' style='left:0'>
+									<div class='lR2-1'>
+										<dl>
+											<dt>
+												<i>现场参加</i>
+												<a href="###">"乐在其中"2014年嘉定区音乐大赛（真新街道赛区）</a>
+											</dt>
+											<dd>
+												<p>
+													<strong>主办单位：</strong>
+													真新街道文化体育服务中心
+												</p>
+												<p>
+													<strong>演出地点：</strong>
+													真新街道社区文化活动中心小剧场
+												</p>
+												<p>
+													<strong>演出时间：</strong>
+													2014年4月19日、26日下午13：00
+												</p>
+												<p>
+													<strong>咨询电话：</strong>
+													59188401
+												</p>
+												<p>
+													<strong>演出简介：</strong>
+													为音乐爱好者搭建才艺展示的平台，进一步呈现美好和谐的文化繁荣景象。 有钢琴独奏《船歌》、大提琴《旋 律》、葫芦丝《花满楼》，女声独唱《芦花》、小合唱《天路》等40余组选手报名参与。
+												</p>
+											</dd>
+										</dl>
+										<dl>
+											<dt>
+												<i>现场参加</i>
+												<a href="###">"乐在其中"2014年嘉定区音乐大赛（真新街道赛区）</a>
+											</dt>
+											<dd>
+												<p>
+													<strong>主办单位：</strong>
+													真新街道文化体育服务中心
+												</p>
+												<p>
+													<strong>演出地点：</strong>
+													真新街道社区文化活动中心小剧场
+												</p>
+												<p>
+													<strong>演出时间：</strong>
+													2014年4月19日、26日下午13：00
+												</p>
+												<p>
+													<strong>咨询电话：</strong>
+													59188401
+												</p>
+												<p>
+													<strong>演出简介：</strong>
+													为音乐爱好者搭建才艺展示的平台，进一步呈现美好和谐的文化繁荣景象。 有钢琴独奏《船歌》、大提琴《旋 律》、葫芦丝《花满楼》，女声独唱《芦花》、小合唱《天路》等40余组选手报名参与。
+												</p>
+											</dd>
+										</dl>
+									</div>
+									<div class='lR2-1'>
+										<dl>
+											<dt>
+												<i>现场参加</i>
+												<a href="###">"乐在其中"2014年嘉定区音乐大赛（真新街道赛区）</a>
+											</dt>
+											<dd>
+												<p>
+													<strong>主办单位：</strong>
+													真新街道文化体育服务中心
+												</p>
+												<p>
+													<strong>演出地点：</strong>
+													真新街道社区文化活动中心小剧场
+												</p>
+												<p>
+													<strong>演出时间：</strong>
+													2014年4月19日、26日下午13：00
+												</p>
+												<p>
+													<strong>咨询电话：</strong>
+													59188401
+												</p>
+												<p>
+													<strong>演出简介：</strong>
+													为音乐爱好者搭建才艺展示的平台，进一步呈现美好和谐的文化繁荣景象。 有钢琴独奏《船歌》、大提琴《旋 律》、葫芦丝《花满楼》，女声独唱《芦花》、小合唱《天路》等40余组选手报名参与。
+												</p>
+											</dd>
+										</dl>
+										<dl>
+											<dt>
+												<i>现场参加</i>
+												<a href="###">"乐在其中"2014年嘉定区音乐大赛（真新街道赛区）</a>
+											</dt>
+											<dd>
+												<p>
+													<strong>主办单位：</strong>
+													真新街道文化体育服务中心
+												</p>
+												<p>
+													<strong>演出地点：</strong>
+													真新街道社区文化活动中心小剧场
+												</p>
+												<p>
+													<strong>演出时间：</strong>
+													2014年4月19日、26日下午13：00
+												</p>
+												<p>
+													<strong>咨询电话：</strong>
+													59188401
+												</p>
+												<p>
+													<strong>演出简介：</strong>
+													为音乐爱好者搭建才艺展示的平台，进一步呈现美好和谐的文化繁荣景象。 有钢琴独奏《船歌》、大提琴《旋 律》、葫芦丝《花满楼》，女声独唱《芦花》、小合唱《天路》等40余组选手报名参与。
+												</p>
+											</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='itemsR'>
+						<p><img src='img/tt2.png'></p>
+						<ul>
+							<li><a href='###'><img src='img/img1_03.jpg' width='240px' height='70px'></a></li>
+							<li><a href='###'><img src='img/img1_03.jpg' width='240px' height='70px'></a></li>
+							<li><a href='###'><img src='img/img1_03.jpg' width='240px' height='70px'></a></li>
+							<li><a href='###'><img src='img/img1_03.jpg' width='240px' height='70px'></a></li>
+							<li><a href='###'><img src='img/img1_03.jpg' width='240px' height='70px'></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- 文化预告end -->
+				<!-- 我要分享start -->
+				<div class='fXiang'>
+					<div class='itemsL'>
+						<p><img src='img/tt3.png'></p>
+						<div class='fx lR1 clearfix' id='fx'>
+							<div id='fXiang'>
+								<a href='###'>MORE</a>
+							</div>
+							<span class='lJiao ' style='opacity:0.7'></span>
+							<span class='rJiao ' style='opacity:0.7'></span>
+						</div>
+						<div class='lR2F'>
+								<!-- 发表框start -->
+								<div id='lR2F-1'>
+									<i id='fX'>分享</i>
+									<div class='clearfix'>
+										<span >分享：</span>
+										<textarea id='area'></textarea>
+										<a href='###' id='fBu'>发布</a>
+									</div>
+									<ul class='clearfix'>
+										<li><a href='###'><img src='img/biao1.png'></a></li>
+										<li><a href='###'><img src='img/biao2.png'></a></li>
+										<li><a href='###'><img src='img/biao3.png'></a></li>
+										<li class='last'>可以直接输入音乐或视频的url地址</li>
+									</ul>
+									<div id='sChuang' style='clear:both'>
+										<span id='ss' style='visibility:hidden'></span>
+										<span>本地浏览：</span>
+										<span>图片上传</span>
+										<ul>
+											<li><img src='img/ii1_03.jpg'><span></span></li>
+											<li><img src='img/ii1_03.jpg'><span></span></li>
+											<li><img src='img/ii1_03.jpg'><span></span></li>
+										</ul>
+										<span id='quX'><img src='img/cha.png'></span>
+									</div>
+								</div>
+								
+								<!-- 发表框end -->
+								<!-- 发表的内容start -->
+								<div id='change' style='top:0px'>
+									<dl class='clearfix'>
+										<dt><img src='img/y1_10.jpg'></dt>
+										<dd><strong>22废话师<strong></dd>
+										<dd>
+											<p>最近总跟小朋友撞脸，大家很好奇我小时候什么样子，下面分享我三个不同阶段的成长。因为是老照片拿手机拍下来的，大家将就看吧，我妈整天说我长坏了，小时候明明是瓜子脸，现在彻底变肉圆脸了！</p>
+										</dd>
+										<dd>
+											<img src='img/y2_15.jpg'>
+											<img src='img/y2_17.jpg'>
+											<img src='img/y3_19.jpg'>
+										</dd>
+									</dl>
+									<dl class='clearfix'>
+										<dt><img src='img/y1_10.jpg'></dt>
+										<dd><strong>22废话师<strong></dd>
+										<dd>
+											<p>最近总跟小朋友撞脸，大家很好奇我小时候什么样子，下面分享我三个不同阶段的成长。因为是老照片拿手机拍下来的，大家将就看吧，我妈整天说我长坏了，小时候明明是瓜子脸，现在彻底变肉圆脸了！</p>
+										</dd>
+										<dd>
+											<img src='img/y2_15.jpg'>
+											<img src='img/y2_17.jpg'>
+											<img src='img/y3_19.jpg'>
+										</dd>
+									</dl>
+									<dl class='clearfix'>
+										<dt><img src='img/y1_10.jpg'></dt>
+										<dd><strong>22废话师<strong></dd>
+										<dd>
+											<p>最近总跟小朋友撞脸，大家很好奇我小时候什么样子，下面分享我三个不同阶段的成长。因为是老照片拿手机拍下来的，大家将就看吧，我妈整天说我长坏了，小时候明明是瓜子脸，现在彻底变肉圆脸了！</p>
+										</dd>
+										<dd>
+											<img src='img/y2_15.jpg'>
+											<img src='img/y2_17.jpg'>
+											<img src='img/y3_19.jpg'>
+										</dd>
+									</dl>
+									<dl class='clearfix'>
+										<dt><img src='img/y1_10.jpg'></dt>
+										<dd><strong>22废话师<strong></dd>
+										<dd>
+											<p>最近总跟小朋友撞脸，大家很好奇我小时候什么样子，下面分享我三个不同阶段的成长。因为是老照片拿手机拍下来的，大家将就看吧，我妈整天说我长坏了，小时候明明是瓜子脸，现在彻底变肉圆脸了！</p>
+										</dd>
+										<dd>
+											<img src='img/y2_15.jpg'>
+											<img src='img/y2_17.jpg'>
+											<img src='img/y3_19.jpg'>
+										</dd>
+									</dl>
+								</div>
+								<!-- 发表的内容end -->
+								
+						</div>
+					</div>
+					<div class='itemsR yuyue'>
+						<p><img src='img/tt4.png'></p>
+						<!-- 选择的内容及选择框start -->
+						
+						<div id='yuyue-items'>
+							<!-- 选择的内容start -->
+							<div id='yYue'>
+								<ul>
+									<li>
+										<figure>
+											<img src='img/ww_03.jpg' width='68px' height='72px'>
+											<figcaption>
+												<strong>111嘉定体育馆</strong>
+												<p>场地：梅园路dsadsadsad315号 </p>
+												<a href='###'>[地图]</a>
+												<p>电话：021-823940234<a href='###'><i></i>在线预约</a></p>
+											</figcaption>
+										</figure>
+									</li>
+									<li>
+										<figure>
+											<img src='img/ww_03.jpg' width='68px' height='72px'>
+											<figcaption>
+												<strong>111嘉定体育馆</strong>
+												<p>场地：梅园路dsadsadsad315号 </p>
+												<a href='###'>[地图]</a>
+												<p>电话：021-823940234<a href='###'><i></i>在线预约</a></p>
+											</figcaption>
+										</figure>
+									</li>
+									<li>
+										<figure>
+											<img src='img/ww_03.jpg' width='68px' height='72px'>
+											<figcaption>
+												<strong>111嘉定体育馆</strong>
+												<p>场地：梅园路dsadsadsad315号 </p>
+												<a href='###'>[地图]</a>
+												<p>电话：021-823940234<a href='###'><i></i>在线预约</a></p>
+											</figcaption>
+										</figure>
+									</li>
+									<li>
+										<figure>
+											<img src='img/ww_03.jpg' width='68px' height='72px'>
+											<figcaption>
+												<strong>111嘉定体育馆</strong>
+												<p>场地：梅园路dsadsadsad315号 </p>
+												<a href='###'>[地图]</a>
+												<p>电话：021-823940234<a href='###'><i></i>在线预约</a></p>
+											</figcaption>
+										</figure>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<figure>
+											<img src='img/ww_03.jpg' width='68px' height='72px'>
+											<figcaption>
+												<strong>222嘉定体育馆</strong>
+												<p>场地：梅园路dsadsadsad315号 </p>
+												<a href='###'>[地图]</a>
+												<p>电话：021-823940234<a href='###'><i></i>在线预约</a></p>
+											</figcaption>
+										</figure>
+									</li>
+									<li>
+										<figure>
+											<img src='img/ww_03.jpg' width='68px' height='72px'>
+											<figcaption>
+												<strong>222嘉定体育馆</strong>
+												<p>场地：梅园路dsadsadsad315号 </p>
+												<a href='###'>[地图]</a>
+												<p>电话：021-823940234<a href='###'><i></i>在线预约</a></p>
+											</figcaption>
+										</figure>
+									</li>
+									<li>
+										<figure>
+											<img src='img/ww_03.jpg' width='68px' height='72px'>
+											<figcaption>
+												<strong>222嘉定体育馆</strong>
+												<p>场地：梅园路dsadsadsad315号 </p>
+												<a href='###'>[地图]</a>
+												<p>电话：021-823940234<a href='###'><i></i>在线预约</a></p>
+											</figcaption>
+										</figure>
+									</li>
+									<li>
+										<figure>
+											<img src='img/ww_03.jpg' width='68px' height='72px'>
+											<figcaption>
+												<strong>222嘉定体育馆</strong>
+												<p>场地：梅园路dsadsadsad315号 </p>
+												<a href='###'>[地图]</a>
+												<p>电话：021-823940234<a href='###'><i></i>在线预约</a></p>
+											</figcaption>
+										</figure>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<figure>
+											<img src='img/ww_03.jpg' width='68px' height='72px'>
+											<figcaption>
+												<strong>333嘉定体育馆</strong>
+												<p>场地：梅园路dsadsadsad315号 </p>
+												<a href='###'>[地图]</a>
+												<p>电话：021-823940234<a href='###'><i></i>在线预约</a></p>
+											</figcaption>
+										</figure>
+									</li>
+									<li>
+										<figure>
+											<img src='img/ww_03.jpg' width='68px' height='72px'>
+											<figcaption>
+												<strong>333嘉定体育馆</strong>
+												<p>场地：梅园路dsadsadsad315号 </p>
+												<a href='###'>[地图]</a>
+												<p>电话：021-823940234<a href='###'><i></i>在线预约</a></p>
+											</figcaption>
+										</figure>
+									</li>
+									<li>
+										<figure>
+											<img src='img/ww_03.jpg' width='68px' height='72px'>
+											<figcaption>
+												<strong>333嘉定体育馆</strong>
+												<p>场地：梅园路dsadsadsad315号 </p>
+												<a href='###'>[地图]</a>
+												<p>电话：021-823940234<a href='###'><i></i>在线预约</a></p>
+											</figcaption>
+										</figure>
+									</li>
+									<li>
+										<figure>
+											<img src='img/ww_03.jpg' width='68px' height='72px'>
+											<figcaption>
+												<strong>333嘉定体育馆</strong>
+												<p>场地：梅园路dsadsadsad315号 </p>
+												<a href='###'>[地图]</a>
+												<p>电话：021-823940234<a href='###'><i></i>在线预约</a></p>
+											</figcaption>
+										</figure>
+									</li>
+								</ul>
+							</div>
+							<!-- 选择的内容end -->
+				
+							<!-- 选择框start -->
+							<div class='xKuang'>
+								<ul>
+									<li class='changeColor'></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+							<!-- 选择框end -->
+							<!-- 选择的内容及选择框end -->
+						</div>
+					</div>
+				</div>
+				<!-- 我要分享end -->
+				<!-- 为您推荐start -->
+				<div class='tJan'>
+					<p><img src='img/weinituij.png'></p>
+					<div class='tJan-1 marginR' >
+						<!-- 左边部分start -->
+						<div class='tJan-left'>
+							<img src='img/kk1_03.jpg' width='161px' height='195px'>
+							<a href='###' class='clearfix'>
+								<p class='l'><img src='img/jc1.png'></p>
+								<span class='r'><img src='img/jiantou.png'></span>
+								<span class='ab'><img src='img/ba_03.png' height='78px' width='161px'></span>
+							</a>
+						</div>
+						<!-- 左边部分end -->
+						<!-- 右边部分start -->
+						<div class='tJan-right'>
+							<div class='r1'>
+								<i></i>
+								<a href='###'>上海群文书法工作者优秀作品展</a>
+								<p >展览时间：2014年3月8日至3月20日</p>
+								<a href='###' class='r1P'>“丹青雅趣”真新街道市民书画作品展</a>
+								<p>展览时间：2014年3月10日至5月10日</p>
+							</div>
+							<div class='r2'>
+								<ul>
+									<li><a href='###'>祁风物 古韵刘芳</a></li>
+									<li><a href='###'>国画创作班2013年度成果展</a></li>
+									<li><a href='###'>甜甜蜜蜜贺新春——糖标文化收藏展</a></li>
+									<li><a href='###'>走进徐行——都市新农村摄影巡礼图片展</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- 右边部分end -->
+					</div>
+					<div class='tJan-1'>
+						<!-- 左边部分start -->
+						<div class='tJan-left'>
+							<img src='img/to1.jpg' width='161px' height='195px'>
+							<a href='###' class='clearfix' style='background:#417369'>
+								<p class='l'><img src='img/jc2.png'></p>
+								<span class='r'><img src='img/jiantou.png'></span>
+								<span class='ab'><img src='img/ba_03.png' height='78px' width='161px'></span>
+							</a>
+						</div>
+						<!-- 左边部分end -->
+						<!-- 右边部分start -->
+						<div class='tJan-right'>
+							<div class='r1'>
+								<i style='background:#417369'></i>
+								<a href='###'>上海群文书法工作者优秀作品展</a>
+								<p >展览时间：2014年3月8日至3月20日</p>
+								<a href='###' class='r1P'>“丹青雅趣”真新街道市民书画作品展</a>
+								<p>展览时间：2014年3月10日至5月10日</p>
+							</div>
+							<div class='r2'>
+								<ul>
+									<li><a href='###'>祁风物 古韵刘芳</a></li>
+									<li><a href='###'>国画创作班2013年度成果展</a></li>
+									<li><a href='###'>甜甜蜜蜜贺新春——糖标文化收藏展</a></li>
+									<li><a href='###'>走进徐行——都市新农村摄影巡礼图片展</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- 右边部分end -->
+					</div>
+					<div class='tJan-1 marginR'>
+						<!-- 左边部分start -->
+						<div class='tJan-left'>
+							<img src='img/to2.jpg' width='161px' height='195px'>
+							<a href='###' class='clearfix' style='background:#b28e4a'>
+								<p class='l'><img src='img/jc3.png'></p>
+								<span class='r'><img src='img/jiantou.png'></span>
+								<span class='ab'><img src='img/ba_03.png' height='78px' width='161px'></span>
+							</a>
+						</div>
+						<!-- 左边部分end -->
+						<!-- 右边部分start -->
+						<div class='tJan-right'>
+							<div class='r1'>
+								<i style='background:#b28e4a'></i>
+								<a href='###'>上海群文书法工作者优秀作品展</a>
+								<p >展览时间：2014年3月8日至3月20日</p>
+								<a href='###' class='r1P'>“丹青雅趣”真新街道市民书画作品展</a>
+								<p>展览时间：2014年3月10日至5月10日</p>
+							</div>
+							<div class='r2'>
+								<ul>
+									<li><a href='###'>祁风物 古韵刘芳</a></li>
+									<li><a href='###'>国画创作班2013年度成果展</a></li>
+									<li><a href='###'>甜甜蜜蜜贺新春——糖标文化收藏展</a></li>
+									<li><a href='###'>走进徐行——都市新农村摄影巡礼图片展</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- 右边部分end -->
+					</div>
+					<div class='tJan-1'>
+						<!-- 左边部分start -->
+						<div class='tJan-left'>
+							<img src='img/to3.jpg' width='163px' height='195px'>
+							<a href='###' class='clearfix' style='background:#c67351'>
+								<p class='l'><img src='img/jc4.png'></p>
+								<span class='r'><img src='img/jiantou.png'></span>
+								<span class='ab'><img src='img/ba_03.png' height='78px' width='161px'></span>
+							</a>
+						</div>
+						<!-- 左边部分end -->
+						<!-- 右边部分start -->
+						<div class='tJan-right'>
+							<div class='r1'>
+								<i style='background:#c67351'></i>
+								<a href='###'>上海群文书法工作者优秀作品展</a>
+								<p >展览时间：2014年3月8日至3月20日</p>
+								<a href='###' class='r1P'>“丹青雅趣”真新街道市民书画作品展</a>
+								<p>展览时间：2014年3月10日至5月10日</p>
+							</div>
+							<div class='r2'>
+								<ul>
+									<li><a href='###'>祁风物 古韵刘芳</a></li>
+									<li><a href='###'>国画创作班2013年度成果展</a></li>
+									<li><a href='###'>甜甜蜜蜜贺新春——糖标文化收藏展</a></li>
+									<li><a href='###'>走进徐行——都市新农村摄影巡礼图片展</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- 右边部分end -->
+					</div>
+				</div>
+				<!-- 为您推荐end -->
+			</div>
+		</div>
+		<!-- content2 end-->
+		<!--底部start-->
+		<footer>
+			<p class="index-w copy">
+				上海市嘉定区文化广播影视管理局 版权所有 ICP备案号：沪ICP备13001862 访问量： 23226次<br />
+					为达到最佳浏览效果，请使用ie8以上版本ie浏览器或360安全浏览器5.0以上版本
+			</p>
+		</footer>
+		<!--底部end-->
+		<!-- 弹框start -->
+			<div id='deng' style='display:none'>
+				<p>&nbsp;&nbsp;欢迎登陆<span id='ca'>×</span></p>
+				<form method='get' action='index.html'>
+				&nbsp;用户名：<input type='text' ><br/>
+				登录密码：<input type='text' ><br/>
+				&nbsp;验证码：<input type='text'> <span><img src='img/uu_03.jpg'></span><br/>
+				<button type='submit'>登录</button>
+				</form>
+				<ul class='clearfix'>
+					<li><a href='###'>找回密码</a></li>
+					<li>|</li>
+					<li><a href='###'>忘记密码</a></li>
+					<li>|</li>
+					<li><a href='###'>立即登录</a></li>
+				</ul>
+			</div>
+		<!-- 弹框end -->
+		<!-- 返回顶部start -->
+		<a href='javascript:scroll(0,0)' id='top'></a>
+		<!-- 返回顶部end -->
+		<script type='text/javascript' src='js/index.js'></script>
+		<script>
+		
+		</script>
+	</body>
+
+</html>

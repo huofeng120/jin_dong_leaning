@@ -1,0 +1,145 @@
+@charset "utf-8";
+body{
+	background: #f7f7f7;
+	height: auto;
+}
+/*header开始*/
+header{
+	width: 996px;
+	height: 61px;
+	margin:40px auto 58px;
+	/*border: 1px red solid;*/
+	line-height: 61px;
+}
+header .logo{
+	float: left;
+	width: 214px;
+	height: inherit;
+	border-right: 1px solid #ccc;
+	background:url(../img/register4.jpg) no-repeat center;
+}
+header li{
+	float: left;
+	width: 120px;
+	padding-left: 35px;
+/*	border: 1px red solid;*/
+	margin-right: 15px;
+}
+
+header li:first-child{
+	padding-left: 0;
+	margin-left: 18px;
+	margin-right: 242px;
+	font-size: 20px;
+	color: #626262;
+}
+header li:nth-child(2){
+	background: url(../img/register1.jpg) no-repeat left;
+}
+header li:nth-child(3){
+	background: url(../img/register2.jpg) no-repeat left;
+	width: 95px;
+}
+header li:nth-child(4){
+	background: url(../img/register3.jpg) no-repeat left;
+}
+/*header结束*/
+/*section开始*/
+section{
+	width: 996px;
+	height: 400px;
+	margin-bottom: 30px;
+/*	border: 1px red solid;*/
+}
+
+section img{
+	float: left;
+}
+
+section > div{
+	font-size: 12px;
+	float:right;
+	margin-right: 78px;
+}
+
+section > div a{
+	color: #C8030A;
+}
+
+
+section form{
+	position:relative;
+	float: right;
+	width: 454px;
+	height: auto;
+	margin-top:5px;
+	font-size: 12px;
+	padding: 0 0 0 100px;
+	/*border: 1px red solid;*/
+}
+form input{
+	float: left;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px #ccc solid;
+	margin: 10px auto;
+	margin-right: 4px;
+}
+form a{
+	display: block;
+	float: left;
+	width: 160px;
+	height: 40px;
+	background: #CCCCCC;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 5px;
+	color: #666666;
+	font-size: 14px;
+}
+form div span{
+	float: left;
+	margin-top: 12px;
+	margin-left: 4px;
+}
+form .tel{
+	width: 280px;
+}
+
+form  .code{
+	width: 116px;
+	height: 40px;
+}
+
+
+
+form > input:nth-last-of-type(2),input:nth-last-of-type(3){
+	width:280px;
+}
+
+form > input:nth-last-of-type(1){
+	width: 140px;
+	background: #de3a39;
+	color: white;
+}
+section > a{
+	float: left;
+	color: #d00335;
+	font-size: 12px;
+	margin-left: 120px;
+}
+/*section 结束*/
+/*footer版权*/
+
+footer p{
+	width: 996px;
+	height: 131px;
+	font-size: 12px;
+	color: #808080;
+	margin: 0 auto ;
+	line-height: 25px;
+	text-align: center;
+	padding-top: 80px;
+}
+

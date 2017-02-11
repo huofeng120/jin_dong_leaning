@@ -1,0 +1,163 @@
+@charset "utf-8";
+body{
+	background: #f7f7f7;
+	height: auto;
+}
+/*header开始*/
+header{
+	width: 996px;
+	height: 61px;
+	margin:40px auto 58px;
+	/*border: 1px red solid;*/
+	line-height: 61px;
+}
+header .logo{
+	float: left;
+	width: 214px;
+	height: inherit;
+	border-right: 1px solid #ccc;
+	background:url(../img/register4.jpg) no-repeat center;
+}
+header li{
+	float: left;
+	width: 120px;
+	padding-left: 35px;
+/*	border: 1px red solid;*/
+	margin-right: 15px;
+}
+
+header li:first-child{
+	padding-left: 0;
+	margin-left: 18px;
+	margin-right: 242px;
+	font-size: 20px;
+	color: #626262;
+}
+header li:nth-child(2){
+	background: url(../img/register1.jpg) no-repeat left;
+}
+header li:nth-child(3){
+	background: url(../img/register2.jpg) no-repeat left;
+	width: 95px;
+}
+header li:nth-child(4){
+	background: url(../img/register3.jpg) no-repeat left;
+}
+/*header结束*/
+/*section开始*/
+section{
+	width: 996px;
+	height: 400px;
+	margin-bottom: 30px;
+/*	border: 1px red solid;*/
+}
+
+section img{
+	float: left;
+}
+section form{
+	float: right;
+	width: 454px;
+	height: auto;
+	margin-top:60px;
+	font-size: 12px;
+	/*border: 1px red solid;*/
+}
+
+
+section input{
+	margin-left: 96px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	border: 1px #ccc solid;
+}
+
+section .user,.password{
+	width: 280px;
+	height: 40px;
+}
+section p{
+	line-height: 14px;
+	height: 35px;
+	width: auto;
+	color: #666666;
+}
+section #jzyh{
+	-webkit-appearance:none;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	text-align: center;
+	background: white;
+	outline: none;
+	border: 1px solid #ccc;
+	vertical-align: top;
+	border-radius:initial;
+	
+}
+
+section .jzyh a{
+	color: #666666;
+}
+
+section #jzyh:checked{
+	border: none;
+	background: green;
+	font-size: 14px;
+}
+
+section #jzyh:checked:after{
+	content: "√";
+}
+
+section .name{
+	margin-top: 60px;       
+}
+
+section .tj{
+	width: 140px;
+	height: 40px;
+	background:#de3a39;
+}
+
+section .submit{
+	height: 55px;
+	
+}
+section .submit a:last-child{
+	margin-left: 60px;
+	color:#c8030a;
+}
+
+section > p{
+	float: left;
+	margin-left: 95px;
+	font-size: 12px;
+	color: #808080;
+	height: 54px;
+}
+
+section > p a{
+	float: left;
+	display: block;
+	width: auto;
+	margin-right: 10px;
+	/*border: 1px red solid;*/
+}
+/*section 结束*/
+/*footer版权*/
+footer{
+	margin:100px auto 0;
+	width: 996px;
+	height: auto;
+	/*border: 1px red solid;*/
+}
+footer p{
+	width: inherit;
+	height: 45px;
+	font-size: 12px;
+	color: #808080;
+	line-height: 25px;
+	text-align: center;
+}
+

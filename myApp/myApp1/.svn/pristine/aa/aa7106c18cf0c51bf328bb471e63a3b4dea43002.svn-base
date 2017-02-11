@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+	<title>瓢城旅行社-手机端</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<header id="header">
+		<nav class="link">
+			<h2 class="none">网站导航</h2>
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li class="active"><a href="information.html">资讯</a></li>
+				<li><a href="ticket.html">票务</a></li>
+				<li><a href="about.html">关于</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- 轮播 -->
+	<div id="headline">
+		<img src="images/headline.png">
+		<hgroup>
+			<h2>旅游资讯</h2>
+			<h3>介绍各种最新旅游信息、咨询要闻、景点攻略等</h3>
+		</hgroup>
+	</div>
+	
+	<div class="list information">
+		<h2>热门旅游</h2>
+
+		<figure>
+			<img src="images/tour1.png" alt="">
+			<figcaption>
+				<hgroup>
+					<h2 class="title">曼谷-芭提雅6日游</h2>
+					<h3 class="samll_title">包团特惠，超丰富景点，升级1晚国五，无自费，赠送600元</h3>
+				</hgroup>
+				<div class="price">￥<strong>2864</strong>起</div>
+			</figcaption>
+		</figure>
+		<figure>
+			<img src="images/tour2.png" alt="">
+			<figcaption>
+				<hgroup>
+					<h2 class="title">曼谷-芭提雅6日游</h2>
+					<h3 class="samll_title">包团特惠，超丰富景点，升级1晚国五，无自费，赠送600元</h3>
+				</hgroup>
+				<div class="price">￥<strong>2864</strong>起</div>
+			</figcaption>
+		</figure>
+		<figure>
+			<img src="images/tour3.png" alt="">
+			<figcaption>
+				<hgroup>
+					<h2 class="title">曼谷-芭提雅6日游</h2>
+					<h3 class="samll_title">包团特惠，超丰富景点，升级1晚国五，无自费，赠送600元</h3>
+				</hgroup>
+				<div class="price">￥<strong>2864</strong>起</div>
+			</figcaption>
+		</figure>
+		<figure>
+			<img src="images/tour4.png" alt="">
+			<figcaption>
+				<hgroup>
+					<h2 class="title">曼谷-芭提雅6日游</h2>
+					<h3 class="samll_title">包团特惠，超丰富景点，升级1晚国五，无自费，赠送600元</h3>
+				</hgroup>
+				<div class="price">￥<strong>2864</strong>起</div>
+			</figcaption>
+		</figure>
+		<figure>
+			<img src="images/tour5.png" alt="">
+			<figcaption>
+				<hgroup>
+					<h2 class="title">曼谷-芭提雅6日游</h2>
+					<h3 class="samll_title">包团特惠，超丰富景点，升级1晚国五，无自费，赠送600元</h3>
+				</hgroup>
+				<div class="price">￥<strong>2864</strong>起</div>
+			</figcaption>
+		</figure>
+		<figure>
+			<img src="images/tour6.png" alt="">
+			<figcaption>
+				<hgroup>
+					<h2 class="title">曼谷-芭提雅6日游</h2>
+					<h3 class="samll_title">包团特惠，超丰富景点，升级1晚国五，无自费，赠送600元</h3>
+				</hgroup>
+				<div class="price">￥<strong>2864</strong>起</div>
+			</figcaption>
+		</figure>
+		<figure>
+			<img src="images/tour7.png" alt="">
+			<figcaption>
+				<hgroup>
+					<h2 class="title">曼谷-芭提雅6日游</h2>
+					<h3 class="samll_title">包团特惠，超丰富景点，升级1晚国五，无自费，赠送600元</h3>
+				</hgroup>
+				<div class="price">￥<strong>2864</strong>起</div>
+			</figcaption>
+		</figure>
+		<figure>
+			<img src="images/tour8.png" alt="">
+			<figcaption>
+				<hgroup>
+					<h2 class="title">曼谷-芭提雅6日游</h2>
+					<h3 class="samll_title">包团特惠，超丰富景点，升级1晚国五，无自费，赠送600元</h3>
+				</hgroup>
+				<div class="price">￥<strong>2864</strong>起</div>
+			</figcaption>
+		</figure>
+	</div>
+
+	<footer id="footer">
+		<div class="top">
+			客户端 | 触屏版 | 电脑版
+		</div>
+		<div class="bottom">
+			Copyright &copy; YCKU 瓢城旅行社 | 苏ICP备12011011号 <!-- | 旅行社经营许可证:L-YC-BK12345 -->
+		</div>
+	</footer>
+	
+
+
+</body>
+</html>
